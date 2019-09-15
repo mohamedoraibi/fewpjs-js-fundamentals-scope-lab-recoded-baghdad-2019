@@ -1,15 +1,13 @@
 let animal = "";
 
-function myAnimal(animalSend) {
-  animal = animalSend;
+function myAnimal() {
   return animal
 }
 
-function yourAnimal(animalSend) {
+function yourAnimal() {
   // How can we make sure that this function
   // and the above function both pass?
   // P.S.: You can't just hard-code 'cat' below
-  animal = animalSend;
   return animal
 }
 
